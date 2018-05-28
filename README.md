@@ -1,24 +1,9 @@
-# README
+DailyLife App:
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+App developed using Rails 5 to simulate an application like Instagram. 
 
-Things you may want to cover:
+|||||||||===============================||||||||==================================|||||||||
 
-* Ruby version
+DailyLife App:
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+App desenvolvido utilizando Rails 5 para simular uma aplicacao do estilo Instagram.
