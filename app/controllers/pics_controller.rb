@@ -1,4 +1,5 @@
 class PicsController < ApplicationController
+  before_action :find_user, only: [:show, :edit, :update, :destroy, :upvote]
   before_action :find_pic, only: [:show, :edit, :update, :destroy, :upvote]
   before_action :authenticate_user!, except: [:index, :show]
 
@@ -52,6 +53,10 @@ class PicsController < ApplicationController
 
   def find_pic
     @pic = Pic.find(params[:id])
+  end
+
+  def find_user
+    @user = current_user
   end
 
 end
